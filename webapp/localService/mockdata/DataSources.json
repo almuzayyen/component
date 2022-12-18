@@ -1,0 +1,200 @@
+[
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID1a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID1a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID1a",
+    "CompId": "0024",
+    "CompCategory": "alert",
+    "Title": "Near Expiry Shelflife",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_EXP_SHEL",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID2a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID2a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID2a",
+    "CompId": "2205",
+    "CompCategory": "alert",
+    "Title": "IK Upcoming Bulky Delivery",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_IK_BULKY",
+    "DrillDown": false,
+    "Trend": false
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID3a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID3a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID3a",
+    "CompId": "0027",
+    "CompCategory": "alert",
+    "Title": "Inventory Stock Out",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_INV_STOCK_OUT",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID6a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID6a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID6a",
+    "CompId": "0019",
+    "CompCategory": "alert",
+    "Title": "Extensive Procurement Time",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_PROC_TIME",
+    "DrillDown": true,
+    "Trend": false
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID10a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID10a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID10a",
+    "CompId": "0012",
+    "CompCategory": "alert",
+    "Title": "Emergency PR",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_EMER_PR",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID11a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID11a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID11a",
+    "CompId": "0015",
+    "CompCategory": "alert",
+    "Title": "Consumed Contracts",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_CONS_CONTRA",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID14a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID14a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID14a",
+    "CompId": "0009",
+    "CompCategory": "alert",
+    "Title": "Unconfirmed TOs",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_UNCONF_TOS",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID15a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID15a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID15a",
+    "CompId": "0034",
+    "CompCategory": "alert",
+    "Title": "Pending Stock Adjustment",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_PEND_STOCK",
+    "DrillDown": true,
+    "Trend": false
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID18a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID18a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID18a",
+    "CompId": "0010",
+    "CompCategory": "alert",
+    "Title": "FCN Items",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_FCN_WH",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID19a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID19a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID19a",
+    "CompId": "0005",
+    "CompCategory": "alert",
+    "Title": "Emergency Items without POD.",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_EMER_WO_POD",
+    "DrillDown": false,
+    "Trend": true
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID20a')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/DataSources('sID20a')",
+      "type": "ZSCM_CT_CONFIG_SRV.DataSource"
+    },
+    "SourceId": "sID20a",
+    "CompId": "0028",
+    "CompCategory": "alert",
+    "Title": "POTENTIAL SLOW MOVING ITEM",
+    "Vistype": "",
+    "Crossfade": false,
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_TREND_POTEN_SLOW",
+    "DrillDown": true,
+    "Trend": false
+  }
+]

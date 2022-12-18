@@ -1,0 +1,85 @@
+<mvc:View controllerName="com.aramco.ZSCM_CT_COMPONENT.controller.Detail" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
+	xmlns:semantic="sap.f.semantic" xmlns:mvc="sap.ui.core.mvc">
+	<semantic:SemanticPage id="detailPage" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}" headerPinnable="false"
+		showFooter="{detailView>/editMode}">
+		<semantic:titleHeading>
+			<Title text="{Title}" level="H1"/>
+		</semantic:titleHeading>
+		<semantic:titleExpandedContent>
+			<VBox>
+				<Title level="H2" text="{= '#' + ${AlertId} }"/>
+				<l:HorizontalLayout>
+					<ObjectAttribute class="sapUiTinyMarginEnd" title="{i18n>valueLabel}"/>
+					<ObjectNumber number="{ path: 'Value', formatter: '.formatter.withComma' }" unit="{= ${Uom} ? ${Uom} : '' }"/>
+				</l:HorizontalLayout>
+			</VBox>
+		</semantic:titleExpandedContent>
+		<semantic:titleSnappedContent>
+			<HBox>
+				<Title class="sapUiLargeMarginEnd" level="H2" text="{= '#' + ${AlertId} }"/>
+				<l:HorizontalLayout>
+					<ObjectAttribute class="sapUiTinyMarginEnd" title="{i18n>valueLabel}"/>
+					<ObjectNumber busy="{= ${Value} ? false : true }" number="{ path: 'Value', formatter: '.formatter.withComma' }"
+						unit="{= ${Uom} ? ${Uom} : '' }"/>
+				</l:HorizontalLayout>
+			</HBox>
+		</semantic:titleSnappedContent>
+		<semantic:headerContent>
+			<FlexBox alignItems="Center" justifyContent="SpaceBetween">
+				<HBox>
+					<ObjectAttribute title="{i18n>lastChange}" text="{ path: 'ChangedOn', formatter: '.formatter.formatDate' }"/>
+					<ObjectAttribute class="sapUiTinyMarginBegin" title="By" text="{ChangedBy}"/>
+				</HBox>
+				<ObjectStatus text="{CriticalityText}" icon="{ path: 'Criticality', formatter: '.formatter.alertStatusIcon' }"
+					state="{ path: 'Criticality', formatter: '.formatter.alertState' }"/>
+			</FlexBox>
+		</semantic:headerContent>
+		<semantic:content>
+			
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding" expandable="false">
+				<items>
+					<IconTabFilter key="details" icon="sap-icon://form" text="{i18n>detailTab}">
+						<VBox id="detailsFormBox"/>
+					</IconTabFilter>
+					<IconTabSeparator/>
+					<IconTabFilter key="email" icon="sap-icon://customer-and-contacts" text="{i18n>emailTab}">
+						<VBox id="emailFormBox"/>
+					</IconTabFilter>
+					<IconTabSeparator/>
+					<IconTabFilter key="dataSource" icon="sap-icon://business-objects-experience" text="Data Source">
+						<VBox id="dataSource"/>
+					</IconTabFilter>
+				</items>
+				
+			</IconTabBar>
+			
+		</semantic:content>
+		
+		<semantic:titleMainAction>
+			<semantic:TitleMainAction text="{i18n>edit}" press=".onEditAlertPress" visible="{= ${detailView>/editMode} ? false : true }"/>
+		</semantic:titleMainAction>
+		<semantic:titleCustomTextActions>
+			<Button text="View Log" press=".onViewAlertLog"/>
+			<Button text="Delete" type="Reject" press=".onDeletePress"/>
+		</semantic:titleCustomTextActions>
+		<semantic:footerCustomActions></semantic:footerCustomActions>
+		<semantic:footerMainAction>
+			<semantic:FooterMainAction text="{i18n>save}" press=".onSavePress"/>
+		</semantic:footerMainAction>
+		<semantic:footerCustomActions>
+			<Button text="{i18n>cancel}" press=".onCancelPress"/>
+		</semantic:footerCustomActions>
+		<semantic:closeAction>
+			<semantic:CloseAction press=".onCloseDetailPress"/>
+		</semantic:closeAction>
+		<semantic:fullScreenAction>
+			<semantic:FullScreenAction visible="{= !${device>/system/phone} &amp;&amp; !${appView>/actionButtonsInfo/midColumn/fullScreen}}"
+				press=".toggleFullScreen"/>
+		</semantic:fullScreenAction>
+		<semantic:exitFullScreenAction>
+			<semantic:ExitFullScreenAction visible="{= !${device>/system/phone} &amp;&amp; ${appView>/actionButtonsInfo/midColumn/fullScreen}}"
+				press=".toggleFullScreen"/>
+		</semantic:exitFullScreenAction>
+		
+	</semantic:SemanticPage>
+</mvc:View>

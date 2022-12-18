@@ -1,0 +1,1002 @@
+[
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0024')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0024')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0024",
+    "Title": "Near Expiry Shelflife",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_OPD_TRACK",
+    "Value": "1.867E3",
+    "ErrorMessage": "",
+    "Uom": "Items",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "N",
+    "CriticalityText": "Normal",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "08",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "MIRAJSM",
+    "ChangedOn": "/Date(1667865600000)/",
+    "ChangedAt": "PT16H15M32S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0024')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0024')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2205')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2205')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "2205",
+    "Title": "IK Upcoming Bulky Delivery",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_OPD_TRACK",
+    "Value": "1.867E3",
+    "ErrorMessage": "",
+    "Uom": "items",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "05",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "MIRAJSM",
+    "ChangedOn": "/Date(1667865600000)/",
+    "ChangedAt": "PT16H14M59S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2205')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2205')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0027')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0027')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0027",
+    "Title": "Inventory Stock Out",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YPDO_CT_INV_UPCOM_PO",
+    "Value": "1.09E2",
+    "ErrorMessage": "",
+    "Uom": "Items",
+    "Category": "IN",
+    "CategoryText": "Inventory",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "05",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "MIRAJSM",
+    "ChangedOn": "/Date(1667865600000)/",
+    "ChangedAt": "PT08H51M19S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0027')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0027')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0030')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0030')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0030",
+    "Title": "Real Time Test",
+    "Description": "",
+    "Source": "H",
+    "SourceText": "Real-Time Data",
+    "TechnicalName": "HOT_TAXI_WO_POD.XSJS",
+    "Value": "0",
+    "ErrorMessage": "Error: No Authorization to Use HTTP Destination",
+    "Uom": "MM",
+    "Category": "IN",
+    "CategoryText": "Inventory",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "TEST",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=test",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "08",
+    "AutoEmail": true,
+    "EmailTo": "SALEH.MIRAJ@ARAMCO.COM",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "<P STYLE=\"TEXT-ALIGN: LEFT;\">TEST TEXT</P>",
+    "EmailDetail": "TEST",
+    "Frequency": "M",
+    "FrequencyText": "Monthly",
+    "ChangedBy": "MIRAJSM",
+    "ChangedOn": "/Date(1667347200000)/",
+    "ChangedAt": "PT10H02M40S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0030')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0030')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2206')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2206')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "2206",
+    "Title": "test Alert",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_SH_INDEX_01",
+    "Value": "3.905E2",
+    "ErrorMessage": "",
+    "Uom": "Item",
+    "Category": "IN",
+    "CategoryText": "Inventory",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": false,
+    "OrderOnApp": "00",
+    "OrderOnCT": "00",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "MIRAJSM",
+    "ChangedOn": "/Date(1666742400000)/",
+    "ChangedAt": "PT10H47M07S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2206')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('2206')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0019')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0019')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0019",
+    "Title": "Extensive Procurement Time",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_EPT_TRACK",
+    "Value": "9.7E1",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "07",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H16M24S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0019')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0019')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0020')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0020')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0020",
+    "Title": "Expiring PAs",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_OPD_TRACK",
+    "Value": "1.867E3",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "N",
+    "CriticalityText": "Normal",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "06",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H15M58S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0020')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0020')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0014')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0014')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0014",
+    "Title": "Expiring Contracts",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_OPD_TRACK",
+    "Value": "1.867E3",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "HTTPS://GOOGLE.COM/SOMEURL",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=https://google.com/someurl",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "05",
+    "AutoEmail": true,
+    "EmailTo": "BASHAYER.ALTHUBAITI.1@ARAMCO.COM",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "<P STYLE=\"TEXT-ALIGN: LEFT;\"><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\"><A TITLE=\"GOOGLE\" HREF=\"HTTP://GOOGLE.COM\">GOOGLE</A>COULD YOU PLEASE CHECK THE FOLLOWING&NBSP;</SPAN></P>\n<OL>\n<LI STYLE=\"TEXT-ALIGN: LEFT;\"><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">ASDFA</SPAN></LI>\n<LI STYLE=\"TEXT-ALIGN: LEFT;\"><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">232</SPAN></LI>\n<LI STYLE=\"TEXT-ALIGN: LEFT;\"><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">DWSF</SPAN></LI>\n</OL>",
+    "EmailDetail": "HTTPS://GOOGLE.COM",
+    "Frequency": "M",
+    "FrequencyText": "Monthly",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H15M44S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0014')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0014')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0031')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0031')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0031",
+    "Title": "Emergency RT",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_PR_TRACK",
+    "Value": "4.17E2",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "04",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H15M21S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0031')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0031')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0012')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0012')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0012",
+    "Title": "Emergency PR",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_PR_TRACK",
+    "Value": "4.17E2",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "03",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H13M56S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0012')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0012')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0015')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0015')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0015",
+    "Title": "Consumed Contracts",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YCDEXDB_CT_PROC_CONS_CONT",
+    "Value": "4.44E2",
+    "ErrorMessage": "",
+    "Uom": "POs",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "02",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H13M43S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0015')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0015')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0002')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0002')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0002",
+    "Title": "Blocked date",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YWHO_CT_INV_ST_ADJS_BLKD",
+    "Value": "0",
+    "ErrorMessage": "Error: Could not find the OUTPUT node in XML",
+    "Uom": "Items",
+    "Category": "PR",
+    "CategoryText": "Procurment",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "01",
+    "AutoEmail": false,
+    "EmailTo": "SAFWAE0A@ARAMCO.COM",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H13M19S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0002')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0002')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0006')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0006')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0006",
+    "Title": "Upcoming Bulky Delivery",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_EPT_TRACK",
+    "Value": "9.7E1",
+    "ErrorMessage": "",
+    "Uom": "Items",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "11",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H08M14S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0006')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0006')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0009')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0009')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0009",
+    "Title": "Unconfirmed TOs",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_OPD_TRACK",
+    "Value": "1.867E3",
+    "ErrorMessage": "",
+    "Uom": "TOs",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "N",
+    "CriticalityText": "Normal",
+    "Detail": "YWHE_UNCONFIRMED_AGING_TO",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=ywhe_unconfirmed_aging_to",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "10",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "YWHE_UNCONFIRMED_AGING_TO",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H08M00S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0009')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0009')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0034')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0034')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0034",
+    "Title": "Pending Stock Adjustment",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_EPT_TRACK",
+    "Value": "9.7E1",
+    "ErrorMessage": "",
+    "Uom": "items",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "HTTPS://SOME.URL.FOR.BEX",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=https://some.url.for.bex",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "07",
+    "AutoEmail": true,
+    "EmailTo": "BASHAYER.ALTHUBAITI.1@ARAMCO.COM",
+    "EmailCC": "#30003030",
+    "EmailOrg": "",
+    "EmailBody": "<P STYLE=\"TEXT-ALIGN: LEFT;\"><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">FEW POINTS</SPAN></P>\n<P STYLE=\"TEXT-ALIGN: LEFT;\">&NBSP;</P>",
+    "EmailDetail": "HTTPS://SOME.URL.FOR.BEX",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H07M03S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0034')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0034')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0008')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0008')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0008",
+    "Title": "POD POs without GRs",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YPDO_CT_LOG_PENDNIG_GRS",
+    "Value": "0",
+    "ErrorMessage": "Error: Could not find the OUTPUT node in XML",
+    "Uom": "POs",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "YPDO_DELIV_SS_PO_WITH_NO_GRV1",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=ypdo_deliv_ss_po_with_no_grv1",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "06",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "YPDO_DELIV_SS_PO_WITH_NO_GRV1",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H06M24S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0008')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0008')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0011')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0011')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0011",
+    "Title": "No. of Cancelation TOs",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_CT_LOG_TOS_CANCELED",
+    "Value": "0",
+    "ErrorMessage": "Error: Could not find the OUTPUT node in XML",
+    "Uom": "TOs",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "04",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "",
+    "FrequencyText": "",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H05M59S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0011')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0011')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0010')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0010')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0010",
+    "Title": "FCN Items",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_EPT_TRACK",
+    "Value": "9.7E1",
+    "ErrorMessage": "",
+    "Uom": "Items",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "W",
+    "CriticalityText": "Warning",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "03",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H05M52S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0010')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0010')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0005')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0005')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0005",
+    "Title": "Emergency Items without POD.",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YSCM_SCCT_EPT_TRACK",
+    "Value": "9.7E1",
+    "ErrorMessage": "",
+    "Uom": "ASN",
+    "Category": "LG",
+    "CategoryText": "Warehouse & Logistics",
+    "PageNo": "01",
+    "Criticality": "C",
+    "CriticalityText": "Critical",
+    "Detail": "",
+    "DetailURL": "",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "02",
+    "AutoEmail": false,
+    "EmailTo": "",
+    "EmailCC": "",
+    "EmailOrg": "",
+    "EmailBody": "",
+    "EmailDetail": "",
+    "Frequency": "D",
+    "FrequencyText": "Daily",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H05M40S",
+    "Trend": true,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0005')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0005')/DataSourceNav"
+      }
+    }
+  },
+  {
+    "__metadata": {
+      "id": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0028')",
+      "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0028')",
+      "type": "ZSCM_CT_CONFIG_SRV.Alert"
+    },
+    "AlertId": "0028",
+    "Title": "POTENTIAL SLOW MOVING ITEM",
+    "Description": "",
+    "Source": "B",
+    "SourceText": "BW Query",
+    "TechnicalName": "YPDO_CT_INV_UPCOM_PO",
+    "Value": "1.09E2",
+    "ErrorMessage": "",
+    "Uom": "",
+    "Category": "IN",
+    "CategoryText": "Inventory",
+    "PageNo": "01",
+    "Criticality": "N",
+    "CriticalityText": "Normal",
+    "Detail": "HTTP://GOOGLE.COM",
+    "DetailURL": "https://prwsao.aramco.com:52001/irj/servlet/prt/portal/prtroot/pcd!3aportal_content!2fcom.sap.pct!2fplatform_add_ons!2fcom.sap.ip.bi!2fiviews!2fcom.sap.ip.bi.bex?query=http://google.com",
+    "InfoLink": "",
+    "ShowOnApp": false,
+    "ShowOnCT": true,
+    "OrderOnApp": "00",
+    "OrderOnCT": "04",
+    "AutoEmail": true,
+    "EmailTo": "BASHAYER.ALTHUBAITI.1@ARAMCO.COM",
+    "EmailCC": "BASHAYER.ALTHUBAITI.1@ARAMCO.COM",
+    "EmailOrg": "",
+    "EmailBody": "<P STYLE=\"TEXT-ALIGN: LEFT;\"><STRONG><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">HELLO SALEH,</SPAN></STRONG></P>\n<P STYLE=\"TEXT-ALIGN: LEFT;\"><STRONG><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">COULD YOU CHECK THIS ALERT {$VALUE}&NBSP;</SPAN></STRONG></P>\n<P STYLE=\"TEXT-ALIGN: LEFT;\">&NBSP;</P>\n<P STYLE=\"TEXT-ALIGN: LEFT;\"><STRONG><SPAN STYLE=\"FONT-FAMILY: 'VERDANA' , 'GENEVA' , SANS-SERIF; FONT-SIZE: 10PT;\">FOR MORE DETAILS PLEASE VISIT FOLLOWING LINK : QUERY</SPAN></STRONG></P>",
+    "EmailDetail": "HTTP:YAHOO.COM",
+    "Frequency": "M",
+    "FrequencyText": "Monthly",
+    "ChangedBy": "ALTHBA0A",
+    "ChangedOn": "/Date(1665532800000)/",
+    "ChangedAt": "PT08H03M47S",
+    "Trend": false,
+    "AlertLog": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0028')/AlertLog"
+      }
+    },
+    "DataSourceNav": {
+      "__deferred": {
+        "uri": "https://DVB.ARAMCO.COM.SA:44303/sap/opu/odata/sap/ZSCM_CT_CONFIG_SRV/Alerts('0028')/DataSourceNav"
+      }
+    }
+  }
+]

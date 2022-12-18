@@ -1,0 +1,28 @@
+/* Center the header title of master page on wide screen */
+.sapFDynamicPage-Std-Desktop #container-ZSCM_CT_COMPONENT---master--masterPage-page-header {
+  width: 49em;
+  align-self: center;
+}
+
+#container-ZSCM_CT_COMPONENT---master--flexItemDataMasterList {
+  transition: flex-grow 0.8s;
+}
+
+/* Highlight the selected tile on the order selection dialog */
+.tileLayout[data-highlight] {
+  background-color: #EFF4F9 !important;
+}
+
+/* Overwrite group list heading background color */
+.sapMListUl>.sapMLIB.sapMGHLI[data-bg="dark"] {
+  background-color: #EDEFF0 !important;
+  /*background-color: #354A5F !important;
+  color: #EDEFF0 !important;*/
+}
+
+.smallLabel > * {
+  font-size: x-small !important;
+  display: block !important;
+  max-width: 20em !important;
+  margin-left: auto !important;
+}

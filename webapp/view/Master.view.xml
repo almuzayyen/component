@@ -1,0 +1,147 @@
+<mvc:View
+  controllerName="com.aramco.ZSCM_CT_COMPONENT.controller.Master"
+  xmlns="sap.m"
+  xmlns:semantic="sap.f.semantic"
+  xmlns:l="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc">
+  <semantic:SemanticPage
+    id="masterPage"
+    preserveHeaderStateOnScroll="true"
+    toggleHeaderOnTitleClick="false"
+    busy="{masterView>/busy}"
+    busyIndicatorDelay="{masterView>/delay}">
+    <semantic:titleHeading>
+	  <Title
+	    id="masterPageTitle"
+	    text="{masterView>/title}"
+	    level="H1"/>
+	</semantic:titleHeading>
+	
+    <semantic:titleExpandedContent>
+      <VBox>
+        <ObjectAttribute class="sapUiTinyMarginEnd smallLabel"
+          binding="{/CurrentUserSet('MIRAJSM')}"
+          text="{parts:[{path:'UserName'},{path:'LastAccessDate'},{path:'LastAccessTime'}] ,formatter:'.formatter.lastLogin'}"/>
+      </VBox>
+    </semantic:titleExpandedContent>
+
+	<semantic:titleCustomIconActions>
+	  <OverflowToolbarButton
+	    icon="sap-icon://sys-help-2"
+	    tooltip="{i18n>guide}"
+	    press=".showHelpMessageBox"/>
+	</semantic:titleCustomIconActions>
+	<semantic:content>
+	  <FlexBox justifyContent="Center">
+	<!-- For client side filtering add this to the items attribute: parameters: {operationMode: 'Client'}}" -->
+	  <List
+	    id="list"
+	    class="sapFDynamicPageAlignContent"
+	    items="{
+	      path: '/Alerts',
+	      sorter: [
+	        {
+	          path: 'ChangedOn',
+	          descending: true
+	        },
+	        {
+	          path: 'ChangedAt',
+	          descending: true
+	        }
+	      ],
+	      groupHeaderFactory: '.createGroupHeader'
+	    }"
+		noDataText="{masterView>/noDataText}"
+		mode="{= ${device>/system/phone} ? 'None' : 'SingleSelectMaster'}"
+		growing="true"
+		growingScrollToLoad="true"
+		updateFinished=".onUpdateFinished"
+		selectionChange=".onSelectionChange"
+		width="{= ${appView>/layout} === 'OneColumn' &amp;&amp; !${device>/system/phone} ? '45em' : 'auto' }">
+	    <layoutData>
+	      <FlexItemData
+	        id="flexItemDataMasterList"
+	        growFactor="{= ${appView>/layout} === 'OneColumn' ? 0 : 1 }"/>
+	    </layoutData>
+		<infoToolbar>
+		  <Toolbar
+		    active="true"
+		    visible="{masterView>/isFilterBarVisible}"
+		    press=".onOpenViewSettings">
+		    <Title
+		      text="{masterView>/filterBarLabel}"
+		      level="H3"/>
+		  </Toolbar>
+		</infoToolbar>
+		
+		<headerToolbar>
+		  <OverflowToolbar>
+		    <SearchField
+		      showRefreshButton="true"
+		      tooltip="{i18n>masterSearchTooltip}"
+		      search=".onSearch"
+		      width="auto">
+			  <layoutData>
+			    <OverflowToolbarLayoutData
+			      minWidth="150px"
+			      maxWidth="240px"
+			      shrinkable="true"
+			      priority="NeverOverflow"/>
+			  </layoutData>
+			</SearchField>
+			
+			<ToolbarSpacer/>
+			
+			<Button
+			  id="sort"
+			  press=".onOpenViewSettings"
+			  icon="sap-icon://sort"
+			  type="Transparent"
+			  tooltip="{i18n>sort}"/>
+			<Button
+			  id="filter"
+			  press=".onOpenViewSettings"
+			  icon="sap-icon://filter"
+			  type="Transparent"
+			  tooltip="{i18n>filter}"/>
+			<Button
+			  id="group"
+			  press=".onOpenViewSettings"
+			  icon="sap-icon://group-2"
+			  type="Transparent"
+			  tooltip="{i18n>group}"/>
+			<Button
+			  id="create"
+			  press=".onOpenCreateAlertDialog"
+			  icon="sap-icon://add"
+			  type="Emphasized"
+			  tooltip="{i18n>add}"/>
+		  </OverflowToolbar>
+		</headerToolbar>
+		
+		<items>
+		  <ObjectListItem
+		    type="Navigation"
+		    busy="{= ${Value} ? false : true }"
+		    press=".onSelectionChange"
+		    title="{Title}"
+		    number="{
+		      path: 'Value',
+		      formatter: '.formatter.withComma'
+		    }"
+		    numberUnit="{Uom}"
+		    numberState="{
+		      path: 'Criticality',
+		      formatter: '.formatter.alertState'
+		    }">
+		    <attributes>
+			  <ObjectAttribute
+			    text="{CategoryText}"/>
+			</attributes>
+	      </ObjectListItem>
+		</items>
+	  </List>
+	  </FlexBox>
+	</semantic:content>
+  </semantic:SemanticPage>
+</mvc:View>

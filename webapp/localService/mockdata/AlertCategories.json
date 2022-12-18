@@ -1,0 +1,14 @@
+[
+    {
+        "Key": "IN",
+        "Text": "Inventory"
+    },
+    {
+        "Key": "LG",
+        "Text": "Logistics"
+    },
+    {
+        "Key": "PR",
+        "Text": "Procurement"
+    }
+]

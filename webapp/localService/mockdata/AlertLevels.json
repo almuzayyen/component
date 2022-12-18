@@ -1,0 +1,14 @@
+[
+    {
+        "Key": "C",
+        "Text": "Critical"
+    },
+    {
+        "Key": "W",
+        "Text": "Warning"
+    },
+    {
+        "Key": "N",
+        "Text": "Normal"
+    }
+]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alert Framework (Mock)</title>
+
+	<script id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/1.71.24/resources/sap-ui-cachebuster/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{
+				"com.aramco.ZSCM_CT_COMPONENT": "../"
+			}'
+			data-sap-ui-oninit="module:com/aramco/ZSCM_CT_COMPONENT/test/initMockServer"
+			data-sap-ui-libs="sap.m,sap.f"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-preload="true"
+			data-sap-ui-bindingSyntax="complex"
+			data-sap-ui-frameOptions="trusted"
+			data-sap-ui-appCacheBuster="../">
+	</script>
+	
+	<link rel="stylesheet" href="../style.css"/>
+</head>
+
+<body class="sapUiBody">
+	<div data-sap-ui-component data-name="com.aramco.ZSCM_CT_COMPONENT" data-id="container" data-settings='{"id" : "ZSCM_CT_COMPONENT"}'></div>
+</body>
+</html>
